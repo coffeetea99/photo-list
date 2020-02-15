@@ -1,0 +1,32 @@
+.photo {
+  width: 268px;
+  margin: 12px;
+  text-align: left;
+  display: inline-block;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.profile-image {
+  width: 36px;
+  height: 36px;
+}
+
+.writer {
+  font-family: AppleSDGothicNeo;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.image {
+  width: 268px;
+  height: 268px;
+  border-radius: 10px;
+}
+
