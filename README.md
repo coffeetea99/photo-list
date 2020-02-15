@@ -1,1 +1,4 @@
-# photo-list
+# Dependencies
+
+## Frontend
+- React
