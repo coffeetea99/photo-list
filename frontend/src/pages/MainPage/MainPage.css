@@ -17,7 +17,7 @@
   width: 268px;
   margin: 12px;
   text-align: left;
-  display: inline-block;
+  float: left;
 }
 
 .upper {
@@ -49,4 +49,8 @@
   position: absolute;
   right: 15px;
   bottom: 15px;
+}
+
+#photolist {
+  overflow: hidden;
 }
