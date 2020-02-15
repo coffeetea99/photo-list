@@ -72,14 +72,14 @@ const MainPage = () => {
         return (
           <div className="photo" key={index}>
             <div className="upper">
-              <img className="profile-image" src={photo.profile_image_url} />
+              <img className="profile-image" src={photo.profile_image_url} alt="profile"/>
               <span className="writer">{photo.nickname}</span>
             </div>
-            <img className="image" src={photo.image_url} />
-            <img className="clip-image" src={clipImage} onClick={() => { modifyClip(photo.id) }} />
+            <img className="image" src={photo.image_url} alt="main"/>
+            <img className="clip-image" src={clipImage} onClick={() => { modifyClip(photo.id)}} alt="clipped"/>
           </div>
         );
-      }
+      } else return null;
     }
   );
 
